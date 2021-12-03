@@ -22,6 +22,5 @@ fn main() {
         .windows(2)
         .filter(|w| w[0] < w[1])
         .count();
-
     println!("Part 2: {}", res);
 }
