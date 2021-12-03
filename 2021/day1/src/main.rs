@@ -9,7 +9,6 @@ fn main() {
         .windows(2)
         .filter(|w| w[0] < w[1])
         .count();
-        
     println!("Part 1: {}", res);
 
     let res = fs::read_to_string("input.txt")
@@ -23,6 +22,6 @@ fn main() {
         .windows(2)
         .filter(|w| w[0] < w[1])
         .count();
-    
-        println!("Part 2: {}", res);
+
+    println!("Part 2: {}", res);
 }
